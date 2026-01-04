@@ -29,7 +29,7 @@
     </ul>
 
     <h2 style="margin-top:1rem">Send a message</h2>
-    <form action="#" method="post" style="max-width:560px;">
+    <form id="contactForm" action="/api/contact" method="post" style="max-width:560px;">
       <label for="name">Name</label><br>
       <input id="name" name="name" type="text" style="width:100%;padding:8px;margin:6px 0;border:1px solid var(--border);border-radius:4px" />
       <label for="email">Email</label><br>
@@ -39,7 +39,7 @@
       <div style="margin-top:8px">
         <button class="cta" type="submit">Send message</button>
       </div>
-      <p style="font-size:0.9rem;color:#718096;margin-top:8px">This form is a demo and does not currently send messages. Replace the `action` with a server endpoint or use a service to handle submissions.</p>
+      <p style="font-size:0.9rem;color:#718096;margin-top:8px">This form will send an email via the backend when configured. See README for setup.</p>
     </form>
   </main>
 
