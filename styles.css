@@ -18,6 +18,11 @@ html,body{height:100%;margin:0;font-family:Inter, Roboto, -apple-system, system-
 .sidebar a:hover{background:#ebf8ff}
 .content{padding:24px;overflow:auto}
 
+.donation-buttons{display:flex;gap:12px;flex-wrap:wrap}
+.donate-cta{display:inline-block;padding:10px 14px;border-radius:6px;background:var(--primary);color:#2d3748;text-decoration:none;border:1px solid var(--border);font-weight:600}
+.donate-cta:hover{opacity:0.95}
+.donate-cta:active{transform:translateY(1px)}
+
 @media (max-width:800px){
   .container{grid-template-columns:1fr}
   .sidebar{position:fixed;left:-260px;top:60px;bottom:0;width:250px;transition:left .25s ease;z-index:9}

@@ -40,5 +40,18 @@ document.addEventListener('DOMContentLoaded', function(){
         alert('Failed to send message');
       }
     });
+
+    // Zelle button copy handler (if present on Donate page)
+    const zelleBtn = document.getElementById('zelleBtn');
+    if (zelleBtn) {
+      zelleBtn.addEventListener('click', function(){
+        const number = '+1 (408) 221-5103';
+        navigator.clipboard && navigator.clipboard.writeText(number).then(()=>{
+          alert('Zelle number copied to clipboard: ' + number);
+        }).catch(()=>{
+          prompt('Copy this number:', number);
+        });
+      });
+    }
   }
 });
