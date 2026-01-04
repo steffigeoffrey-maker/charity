@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
 :root{
   --primary:#fae7e3;
   --muted:#f7fafc;
@@ -6,7 +8,7 @@
 *{box-sizing:border-box}
 html,body{height:100%;margin:0;font-family:Inter, Roboto, -apple-system, system-ui, 'Segoe UI', Arial;font-size:16px;color:#2d3748}
 .topbar{position:fixed;top:0;left:0;right:0;height:60px;background:var(--primary);color:#2d3748;display:flex;align-items:center;justify-content:space-between;padding:0 16px;z-index:10}
-.brand{font-weight:700;display:flex;align-items:center}
+.brand{font-weight:700;display:flex;align-items:center;font-family:'Dancing Script', cursive;color:#5a8893}
 .topbar .logo{height:40px;width:auto;margin-right:12px;border-radius:6px}
 .topnav a{color:inherit;margin-right:16px;text-decoration:none}
 .menu-toggle{display:none;background:transparent;border:none;color:inherit;font-size:20px}
