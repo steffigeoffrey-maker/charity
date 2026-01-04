@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Donate — Bakes of Hope Foundation</title>
   <link rel="stylesheet" href="styles.css" />
-</head>
+  </head>
 <body>
   <header class="topbar">
     <div class="brand">Bakes of Hope Foundation</div>
@@ -18,9 +18,30 @@
     </nav>
   </header>
 
-  <main class="content" style="margin-top:80px;padding:24px;">
-    <p>Your donation helps various charities to help fight children diseases.</p>
-  </main>
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <nav>
+        <ul>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Campaigns</a></li>
+          <li><a href="#">Volunteers</a></li>
+          <li><a href="#">Reports</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <h1>Support Bakes of Hope Foundation</h1>
+      <p>Your donation helps fund baking workshops, food drives, and community outreach. Choose an amount and complete the secure checkout.</p>
+      <div class="donate-actions">
+        <button class="cta">Donate $10</button>
+        <button class="cta">Donate $25</button>
+        <button class="cta">Donate $50</button>
+      </div>
+      <p style="margin-top:1rem;font-size:0.9rem;color:#4a5568">This demo page does not process payments. Integrate a payment gateway like Stripe to accept donations.</p>
+    </main>
+  </div>
 
   <script src="script.js"></script>
 </body>
