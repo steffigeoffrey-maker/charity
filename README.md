@@ -1,4 +1,4 @@
-# Charity Demo Site
+# Bakes of Hope Foundation
 
 Small static demo site with a top navigation bar and a left sidebar navigation.
 
